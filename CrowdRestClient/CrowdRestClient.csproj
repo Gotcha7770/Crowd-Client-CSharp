@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Title>CrowdRestClient</Title>
-    <Version>0.0.1-beta</Version>
+    <Version>0.1.2-beta</Version>
     <Copyright>Gleb Bakanov©  2018</Copyright>
     <Description>Lightweight REST client for Atlassian Crowd service ready for .net standard</Description>
     <Authors>Gleb Bakanov</Authors>
@@ -11,7 +11,7 @@
     <ProjectUrl>https://github.com/Gotcha7770/Crowd-Client-CSharp</ProjectUrl>
     <RepositoryUrl>https://github.com/Gotcha7770/Crowd-Client-CSharp</RepositoryUrl>
     <PackageReleaseNotes></PackageReleaseNotes>
-    <AssemblyVersion>0.0.1.1</AssemblyVersion>
+    <AssemblyVersion>0.1.2.2</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>

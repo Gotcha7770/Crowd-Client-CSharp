@@ -61,9 +61,13 @@ namespace CrowdRestClient
             return Uri + string.Format(ApiPath, ApiVersion, apiResource);
         }
 
-        private IRestRequest CreateRequest(string apiResource)
+        private IRestRequest CreateRequest(string apiResource, object body = null)
         {
-            var request =  new RestRequest(GetFullUri(apiResource));
+            var request =  new RestRequest(GetFullUri(apiResource))
+                .WithJsonSerializer(_jsonSerializer);
+
+            if (body != null)
+                request.AddJsonBody(body);
 
             return request;
         }
