@@ -44,8 +44,11 @@
     <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AuthentificationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SerializationTest.cs" />
+    <Compile Include="SessionTests.cs" />
+    <Compile Include="TestData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
